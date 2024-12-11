@@ -29,7 +29,7 @@ else if(C<=score && (overScore>score))
 else if(D_plus<=score && (overScore>score))
     console.log(`Student:${name} \n Score:${score} \n Grade: D+ `)
 
-else if(D<=score && (overScore>score))
+else if(D>=score && (overScore>score))
     console.log("You Are Faild !")
 
 else{
@@ -46,6 +46,6 @@ function displayResult(score,studentName){
     calculateGrade(score,studentName)
 
  }
- 
+
 
  displayResult(85,"Athira")
